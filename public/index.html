@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bangers&family=Bebas+Neue&family=Caveat+Brush&family=IM+Fell+Double+Pica:ital@0;1&family=IM+Fell+English+SC&family=Merienda:wght@700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body class="bg-[var(--light-blue-bg)]">
+
+    <!-- Header Hero Section -->
     <header class="h-screen overflow-hidden">
         <div id="parallax-img-pub" class="parallax-img absolute inset-0 parallax-bg-1 bg-cover bg-center z-0 custom-height-105vh"></div>
         <div id="parallax-img-pub-winter" class="parallax-img absolute inset-0 parallax-bg-2 bg-cover bg-center z-0 custom-height-105vh"></div>
@@ -39,8 +41,12 @@
             <img src="img/noun-chevron-down-344375-FFFFFF.png" class="h-10 w-10 mt-2" >
         </div>
     </header>
+
+
     <main class="relative z-1 bg-[var(--light-blue-bg)]">
-        <section id="about" class="about relative bg-[var(--light-blue-bg)] pt-4 pb-8 mb-4 xl:max-h-[80vh]">
+
+        <!-- About Section -->
+        <section id="about" class="about relative bg-[var(--light-blue-bg)] pt-4 pb-8 mb-4 xl:max-h-[90vh]">
             <h2 class="merienda-regular mb-4 lg:my-8 text-center text-4xl text-[var(--hummingbird-purple)] lg:text-6xl ">About Us</h2>
             <div class="relative mx-auto lg:w-4/5 xl:grid xl:grid-cols-3 xl:grid-rows-2 xl:gap-8 xl:max-h-[65vh] 2xl:w-2/3">
                 <div class="bg-[var(--hummingbird-purple)] w-4/5 mx-auto rounded-md overflow-hidden xl:w-full xl:col-span-2">
@@ -62,13 +68,20 @@
             </div>
             <img src="img/two_hummingbirds.png" class="absolute h-[100px] lg:h-[275px] 2xl:h-[325px] top-0 left-6 -scale-x-100" />
             <img src="img/two_hummingbirds_2.png" class="absolute h-[90px] lg:h-[250px] 2xl:h-[300px] top-0 lg:top-12 right-6 -scale-x-100" />
+            <div class="w-3/4 md:w-2/3 lg:w-1/2 lg:max-w-[420px] mx-auto mt-6">
+                <img src="img/bus_driver_needed.jpg" class="w-full h-auto rounded-md shadow-md"/>
+            </div>
         </section>
+
+        <!-- Pub Bus Image -->
         <section class="pub-bus relative h-[80vh] lg:h-[90vh] overflow-hidden">
             <div class="bus-parallax h-full">
                 <img id="parallax-img-bus" src="img/pub_bus_1_small.jpg" class="w-full h-full object-cover"/>
                 <h2></h2>
             </div>
         </section>
+
+        <!-- Pub Bus Schedule -->
         <section id="pub-bus" class="relative pb-8 z-5 bg-[var(--light-blue-bg)]">
             <h2 class="merienda-regular my-4 lg:my-8 text-center text-4xl text-[var(--hummingbird-purple)] lg:text-6xl ">The Hummingbird Pub Bus</h2>
             <div class="xl:flex xl:w-4/5 xl:mx-auto xl:gap-4">
@@ -131,6 +144,7 @@
             </div>
         </section>
             
+        <!-- Location Section -->
         <section class="location relative pb-8">
             <div id="parallax-img-pub-front" class="absolute inset-0 parallax-bg-3 bg-cover bg-center custom-height-112vh"></div>
             <div class="absolute top-0 left-0 inset-0 bg-black/60 z-1 height-[180%]"></div>
@@ -150,6 +164,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Menu Images Section -->
         <section class="relative bg-[var(--light-blue-bg)] w-full">
             <h2 class="merienda-regular text-center text-4xl text-[var(--hummingbird-purple)] lg:text-6xl pt-8 pb-4">Find these and more on our menu!</h2>
             <div class="lg:grid lg:grid-cols-4 pt-4 lg:gap-4 overflow-hidden">
