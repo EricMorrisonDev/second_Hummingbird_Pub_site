@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:css": "npx tailwindcss -i ./styles.css -o ./output.css --watch",
+    "build:css": "npx tailwindcss -i ./styles.css -o ./public/output.css --watch",
+    "build:css:once": "npx tailwindcss -i ./styles.css -o ./public/output.css",
     "preview": "vite preview"
   }
 }
