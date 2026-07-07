@@ -152,9 +152,13 @@ html, body {
 
 /* Parallax background images */
 .parallax-bg-1 {
-    background-image: url('img/exterior_side_view_small.jpg');
+    background-image: url('img/exterior_side_view_small.webp');
 }
 
 .parallax-bg-2 {
-    background-image: url('img/Pub_winter_2_small.jpg');
+    background-image: url('img/Pub_winter_2_small.webp');
+}
+
+.parallax-bg-3 {
+    background-image: url('img/exterior_front_entrance_small.webp');
 }

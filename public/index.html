@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hummingbird Pub</title>
+    <link rel="preload" as="image" href="img/exterior_side_view_small.webp">
     <link rel="icon" type="image/jpeg" href="img/hummingbird_1.png">
     <link href="./output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
     <!-- Header Hero Section -->
     <header class="h-screen overflow-hidden">
         <div id="parallax-img-pub" class="parallax-img absolute inset-0 parallax-bg-1 bg-cover bg-center z-0 custom-height-105vh"></div>
-        <div id="parallax-img-pub-winter" class="parallax-img absolute inset-0 parallax-bg-2 bg-cover bg-center z-0 custom-height-105vh"></div>
+        <div id="parallax-img-pub-winter" class="parallax-img absolute inset-0 bg-cover bg-center z-0 custom-height-105vh"></div>
         <div class="absolute top-0 left-0 inset-0 bg-black/60 h-[120vh] z-1"></div>
         <nav class="fixed z-50 w-full flex justify-between p-2 pl-4 lg:pl-12">
             <div class="h-12 w-12 rounded-full cursor-pointer">
@@ -56,7 +57,7 @@
                         <img src="img/fleuron_left.png" class="w-30 lg:w-40 -scale-x-100"/>
                     </div>
                 </div>
-                <img src="img/pub_sign_smaller.jpeg" class="w-4/5 mx-auto rounded-md mt-8 lg:w-1/2 xl:mt-0 xl:row-span-2 xl:h-full xl:object-cover xl:mx-0 xl:w-auto"/>
+                <img src="img/pub_sign_smaller.webp" class="w-4/5 mx-auto rounded-md mt-8 lg:w-1/2 xl:mt-0 xl:row-span-2 xl:h-full xl:object-cover xl:mx-0 xl:w-auto"/>
                 <div class="bg-[var(--hummingbird-purple)] mt-8 w-4/5 mx-auto rounded-md p-4 xl:mt-0 xl:w-full xl:mt-0 xl:col-span-2">
                     <p class="hours text-white poppins-regular text-xl lg:text-2xl text-center mb-4">Business Hours</p>
                     <p class="text-white poppins-regular text-sm md:text-base lg:text-lg leading-relaxed pb-2"><span class="underline font-bold mb-2">Monday - Thursday:</span> <span data-name="monday_to_thursday_hours"></span></p>
@@ -76,7 +77,7 @@
         <!-- Pub Bus Image -->
         <section class="pub-bus relative h-[80vh] lg:h-[90vh] overflow-hidden">
             <div class="bus-parallax h-full">
-                <img id="parallax-img-bus" src="img/pub_bus_1_small.jpg" class="w-full h-full object-cover"/>
+                <img id="parallax-img-bus" src="img/pub_bus_1_small.webp" class="w-full h-full object-cover"/>
                 <h2></h2>
             </div>
         </section>
@@ -151,7 +152,7 @@
             <h2 class="relative merienda-regular text-[2.65rem] xl:text-6xl text-center py-8 text-[var(--light-blue-bg)] z-5">Where to find us</h2>
             <div class="lg:flex xl:w-2/3 xl:mx-auto">
                 <div class="relative w-4/5 mx-auto z-5 aspect-[1/1] md:max-h-[600px] md:max-w-[600px] lg:max-h-[400px] lg:max-w-[400px] xl:max-h-[500px] xl:max-w-[500px]">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.2830314461244!2d-123.34835192353373!3d48.8909429713366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485f787c595ac3b%3A0x69dadd3dbbac2107!2sHummingbird%20Pub%20%26%20Family%20Restaurant!5e0!3m2!1sen!2sca!4v1750281290097!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolut top:0 left:0 h-full w-full z-5 rounded-md"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.2830314461244!2d-123.34835192353373!3d48.8909429713366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485f787c595ac3b%3A0x69dadd3dbbac2107!2sHummingbird%20Pub%20%26%20Family%20Restaurant!5e0!3m2!1sen!2sca!4v1750281290097!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute top:0 left:0 h-full w-full z-5 rounded-md"></iframe>
                 </div>
                 <div>
                     <p class="relative text-white poppins-regular text-md leading-relaxed w-4/5 mx-auto mt-8 z-5 md:max-w-[600px] lg:text-lg">The Hummingbird Pub is located near the corner of Porlier Pass road and Georgeson Bay road just a 7 minute drive from Sturdies Bay ferry terminal!</p>

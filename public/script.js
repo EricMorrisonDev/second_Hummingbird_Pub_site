@@ -102,6 +102,16 @@ function cycleImages() {
 
 images[0].classList.add('active')
 
+// Defer the second hero image: attach its background class only after initial
+// page load so it doesn't compete with first paint. It isn't shown until the
+// 8s cycle, so there's ample time for it to fetch.
+window.addEventListener('load', () => {
+    const winterImg = document.getElementById('parallax-img-pub-winter')
+    if (winterImg) {
+        winterImg.classList.add('parallax-bg-2')
+    }
+})
+
 setInterval(cycleImages, 8000);
 
 // parallax scroll logic
